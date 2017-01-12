@@ -1,3 +1,7 @@
+config.generators do |g|
+g.assets false
+g.helper false
+end
 require File.expand_path('../boot', __FILE__)
 
 require "rails"
